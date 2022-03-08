@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Shop</title>
+<script defer="defer" src="./js/main.js"></script><link href="./css/style.css" rel="stylesheet"></head>
+<body>
+    <header class="header">
+        <div class="header__container container">
+            <div class="header__burger">
+                <img src="./img/burger.png" alt="">
+            </div>
+            <div class="header__logo">
+                <img src="./img/logo.png" alt="">
+            </div>
+            <ul class="header__list">
+                <li class="header__link"><a href="#">Меню</a></li>
+                <li class="header__link"><a href="#">Доставка</a></li>
+                <li class="header__link"><a href="#">Оплата</a></li>
+                <li class="header__link"><a href="#">Бронь стола</a></li>
+            </ul>
+            
+            <div class="header__icons">
+                <div class="header__icon header__phone"><img src="./img/phone.png" alt="phone"><span>+7(831)282-60-00</span></div>
+                <div class="header__icon" id="cart"><img src="./img/cart.png" alt=""></div>
+                <div class="header__icon"><img src="./img/person.png" alt=""></div>
+            </div>
+        </div>
+    </header>
+    <div class="cart">
+        <div class="cart__modal">
+            
+            <div class="cart__container">
+                <div class="cart__block">
+                    <div class="cart__header">
+                        <h3 class="cart__title">Корзина</h3>
+                    </div>
+
+                    <ul class="cart__list">
+                        
+                    </ul>
+                </div>
+                
+                <div class="cart__aside">
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="banner">
+        <div class="banner__container container">
+            <div class="banner__content">
+                <div class="banner__title">Подарок на первый заказ</div>
+                <div class="banner__text">Получите 500 рублей за подписку на рассылку</div>
+                <button class="banner__btn">Подписаться</button>
+            </div>
+            <div class="banner__img"><img src="./img/banner.png" alt=""></div>
+        </div>
+    </div>
+    <nav class="nav">
+        <div class="nav__container container">
+            <button class="nav__btn left"><img src="./img/Arrow 13.png" alt=""></button>
+            <ul class="nav__list">
+                <li class="nav__li active" data-category="all">Все</li>
+                <li class="nav__li" data-category="soup">Супы</li>
+                <li class="nav__li" data-category="khachapuri">Хачапури</li>
+                <li class="nav__li" data-category="palif">Плов</li>
+                <li class="nav__li" data-category="shahlik">Шашлык</li>
+                <li class="nav__li" data-category="shawarma">Шаурма</li>
+            </ul>
+            <button class="nav__btn right"><img src="./img/Arrow 13.png" alt=""></button>
+        </div>
+    </nav>
+
+    <div class="goods">
+        <div class="goods__container container">
+            <h3>Все товары категории</h3>
+            <ul class="goods__list">
+                
+            </ul>
+        </div>
+    </div>
+    <div class="page">
+        <div class="page__container container">
+            <div class="page__items">
+                <!-- <div class="page__item active">1</div>
+                <div class="page__item">2</div>
+                <div class="page__item">3</div>
+                <div class="page__item">...</div>
+                <div class="page__item">8</div> -->
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__top">
+                <div class="footer__contacts contacts">
+                    <div class="contacts__phone">
+                        <div class="contacts__item">
+                            <div class="contacts__text">Бесплатный звонок по РФ</div>
+                            <div class="contacts__number">+7 (831) 282-60-00</div>
+                        </div>
+                        <div class="contacts__item">
+                            <div class="contacts__text">Для приема заказов</div>
+                            <div class="contacts__number">+7 (904) 066-46-85</div>
+                        </div>
+                    </div>
+                    <div class="contacts__schedule">
+                        График работы по будням с 9:00 до 18:00
+                    </div>
+                    <div class="contacts__email">Email: info@.ru</div>
+                </div>
+
+                <div class="footer__links">
+                    <div class="footer__link"><a href="http://vk.com">Мы в вконтакте ></a></div>
+                    <div class="footer__link"><a href="https://www.instagram.com/">Мы в instagram ></a></div>
+                </div>
+                <div class="footer__auth">
+                    <div class="footer__img"><img src="./img/person_white.png" alt=""></div>
+                    <a href="#">Войти</a> <span>/</span> <a href="#">Регистрация</a>
+                </div>
+            </div>
+            <div class="footer__support">
+                <h3 class="footer__title">Поддержка</h3>
+                <div class="footer__support-content">
+                    <div class="footer__support-item"><a href="#">©2020. Пиросмани</a></div>
+                    <div class="footer__support-item"><a href="#">Условия и соглашения</a></div>
+                    <div class="footer__support-item"><a href="#">Политика конфиденциальности</a></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
